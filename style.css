@@ -62,6 +62,67 @@ body{
     background-color: var(--secundaryColor);
     color: var(--primaryColor);
 }
-.sidebar-logout{
-    fo
+.main{
+    width: 100%;
+    height: max-content;
+    min-height: 100vh;
+    background-color: var(--softGreenColor);
+    margin-left: 250px;
+}
+.main-navbar{
+    margin: 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-toggle{
+    display: none;
+}
+.search{
+    width: 60%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--whiteColor);
+    border-radius: 20px;
+}
+.search input{
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+}
+.search-btn{
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    cursor: pointer;
+}
+.search:hover{
+    box-box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+}
+.search-btn:hover{
+    background-color: var(--secundaryColor);
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.cart, .user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--whiteColor);
+    font-size: 20px;
+    color: var(--primaryColor);
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 50%;
+}
+.cart:hover, .user:hover{
+    background-color: var(--secundaryColor);
 }
